@@ -1,0 +1,368 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B42E7638F62E189DFC9FDC79 /* Pods_Brain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C99B5C7D16CAEC2BFF2D99AA /* Pods_Brain.framework */; };
+		DD43FCA61BF02C9A006E3FF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD43FCA51BF02C9A006E3FF3 /* AppDelegate.swift */; };
+		DD43FCAB1BF02C9A006E3FF3 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD43FCA91BF02C9A006E3FF3 /* MainMenu.xib */; };
+		DD43FCB31BF02D6D006E3FF3 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = DD43FCB21BF02D6D006E3FF3 /* icon.icns */; };
+		DD8BCCAB1BF03109009450E2 /* 1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = DD8BCCAA1BF030F9009450E2 /* 1.mp4 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		218F40BEF8571010C0C4DDE9 /* Pods-Brain.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Brain.release.xcconfig"; path = "Pods/Target Support Files/Pods-Brain/Pods-Brain.release.xcconfig"; sourceTree = "<group>"; };
+		C99B5C7D16CAEC2BFF2D99AA /* Pods_Brain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Brain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAEAB359B97E6B13F548E143 /* Pods-Brain.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Brain.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Brain/Pods-Brain.debug.xcconfig"; sourceTree = "<group>"; };
+		DD43FCA21BF02C9A006E3FF3 /* Brain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Brain.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD43FCA51BF02C9A006E3FF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DD43FCAA1BF02C9A006E3FF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		DD43FCAC1BF02C9A006E3FF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD43FCB21BF02D6D006E3FF3 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
+		DD8BCCAA1BF030F9009450E2 /* 1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1.mp4; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD43FC9F1BF02C9A006E3FF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B42E7638F62E189DFC9FDC79 /* Pods_Brain.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03CC16B05C127C95C88D3091 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CAEAB359B97E6B13F548E143 /* Pods-Brain.debug.xcconfig */,
+				218F40BEF8571010C0C4DDE9 /* Pods-Brain.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		49F2F0643BEB4695FE9DE334 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C99B5C7D16CAEC2BFF2D99AA /* Pods_Brain.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD43FC991BF02C9A006E3FF3 = {
+			isa = PBXGroup;
+			children = (
+				DD43FCA41BF02C9A006E3FF3 /* Brain */,
+				DD43FCA31BF02C9A006E3FF3 /* Products */,
+				03CC16B05C127C95C88D3091 /* Pods */,
+				49F2F0643BEB4695FE9DE334 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DD43FCA31BF02C9A006E3FF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD43FCA21BF02C9A006E3FF3 /* Brain.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD43FCA41BF02C9A006E3FF3 /* Brain */ = {
+			isa = PBXGroup;
+			children = (
+				DD43FCA51BF02C9A006E3FF3 /* AppDelegate.swift */,
+				DD43FCA91BF02C9A006E3FF3 /* MainMenu.xib */,
+				DD43FCAC1BF02C9A006E3FF3 /* Info.plist */,
+				DD43FCB21BF02D6D006E3FF3 /* icon.icns */,
+				DD8BCCAA1BF030F9009450E2 /* 1.mp4 */,
+			);
+			path = Brain;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD43FCA11BF02C9A006E3FF3 /* Brain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD43FCAF1BF02C9A006E3FF3 /* Build configuration list for PBXNativeTarget "Brain" */;
+			buildPhases = (
+				D706901957018B9EE6219129 /* Check Pods Manifest.lock */,
+				DD43FC9E1BF02C9A006E3FF3 /* Sources */,
+				DD43FC9F1BF02C9A006E3FF3 /* Frameworks */,
+				DD43FCA01BF02C9A006E3FF3 /* Resources */,
+				2D5779275D8CB30E3EA24A9C /* Embed Pods Frameworks */,
+				4B6253CBEE36D6F3EA7BC479 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Brain;
+			productName = Brain;
+			productReference = DD43FCA21BF02C9A006E3FF3 /* Brain.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD43FC9A1BF02C9A006E3FF3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				TargetAttributes = {
+					DD43FCA11BF02C9A006E3FF3 = {
+						CreatedOnToolsVersion = 7.1;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = DD43FC9D1BF02C9A006E3FF3 /* Build configuration list for PBXProject "Brain" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD43FC991BF02C9A006E3FF3;
+			productRefGroup = DD43FCA31BF02C9A006E3FF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD43FCA11BF02C9A006E3FF3 /* Brain */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD43FCA01BF02C9A006E3FF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD43FCAB1BF02C9A006E3FF3 /* MainMenu.xib in Resources */,
+				DD43FCB31BF02D6D006E3FF3 /* icon.icns in Resources */,
+				DD8BCCAB1BF03109009450E2 /* 1.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D5779275D8CB30E3EA24A9C /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Brain/Pods-Brain-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B6253CBEE36D6F3EA7BC479 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Brain/Pods-Brain-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D706901957018B9EE6219129 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD43FC9E1BF02C9A006E3FF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD43FCA61BF02C9A006E3FF3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DD43FCA91BF02C9A006E3FF3 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD43FCAA1BF02C9A006E3FF3 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD43FCAD1BF02C9A006E3FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DD43FCAE1BF02C9A006E3FF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DD43FCB01BF02C9A006E3FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAEAB359B97E6B13F548E143 /* Pods-Brain.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Brain/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.justinmiller.Brain;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		DD43FCB11BF02C9A006E3FF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 218F40BEF8571010C0C4DDE9 /* Pods-Brain.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Brain/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.justinmiller.Brain;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD43FC9D1BF02C9A006E3FF3 /* Build configuration list for PBXProject "Brain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD43FCAD1BF02C9A006E3FF3 /* Debug */,
+				DD43FCAE1BF02C9A006E3FF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD43FCAF1BF02C9A006E3FF3 /* Build configuration list for PBXNativeTarget "Brain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD43FCB01BF02C9A006E3FF3 /* Debug */,
+				DD43FCB11BF02C9A006E3FF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD43FC9A1BF02C9A006E3FF3 /* Project object */;
+}
